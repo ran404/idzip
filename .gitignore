@@ -1,0 +1,3 @@
+*.pyc
+/test/data/*.dz
+/test/data/*.txt

@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-zcat quixote.txt.gz > quixote.txt
+zcat < quixote.txt.gz > quixote.txt
 head -c58315 quixote.txt >one_chunk.txt
 head -c116630 quixote.txt >two_chunks.txt
 head -c18011 quixote.txt >small.txt
